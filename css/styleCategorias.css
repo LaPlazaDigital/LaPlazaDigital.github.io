@@ -2,13 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background:linear-gradient(#ff7f2a, #F5591E, #992b12);
     color: #333;
 }
 
 
 header {
-    background-color: #2ADEC4; 
+    background:linear-gradient(#ff7f2a, #F5591E, #992b12);
     color: white;
     padding: 30px;
     display: flex;
@@ -36,9 +36,11 @@ header nav a:hover {
 
 /* Contenedor principal */
 .container {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: auto;
     padding: 40px 20px;
+    margin-bottom: 10%;
+    margin-left: 30%;
 }
 
 /* Sección de categorías */
@@ -104,3 +106,50 @@ footer a:hover {
     margin-top: 20px;
     margin-bottom: 10px;
 }
+.medios {
+    background:linear-gradient(#ff7f2a, #F5591E, #992b12);
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #000000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+  }
+  .medios a:hover{
+    color: white;
+      background-color: #830d34;
+      border: 2px solid #830d34;
+      border-radius: 30px;
+  }
+  .links {
+    padding-left:53%;
+    padding-top: 11px;
+  
+  }
+  .links a{
+    text-decoration: none;
+  
+   
+    border-radius: 30px;
+    color:white;
+  
+  }
+  .links a:hover{
+  
+    color: white;
+    background:linear-gradient(#ff7f2a, #F5591E, #992b12);
+    border: 2px solid #830d34;
+    
+  
+  }
+  header {
+    background:linear-gradient(#ff7f2a, #F5591E, #992b12);
+    padding: 10px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #000000;
+    border-radius: 30px;
+  }
